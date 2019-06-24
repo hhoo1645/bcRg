@@ -49,7 +49,7 @@ client.on('ready',  () => {
  
 
   client.on('message', msg => {
-    if(msg.content === '-adminhelp')
+    if(msg.content === '-helpb')
     msg.reply('Check Your DM :white_check_mark:')
   });
   
